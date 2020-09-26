@@ -9,6 +9,11 @@
 body {
   font-family: "Lato", sans-serif;
   font-size: 20px;
+  color: #abd3d2;
+  text-shadow: -0.1px 0.1px 0 #000,
+                0.1px 0.1px 0 #000,
+                0.1px -0.1px 0 #000,
+               -0.1px -0.1px 0 #000;
 
 }
 
@@ -33,6 +38,14 @@ header{
   color: white;
 }
 
+h3{
+  color:#509e98;
+}
+
+body{
+  background-color: #f0f5f5;
+}
+
 .fab{
   padding: 15px;
 }
@@ -53,13 +66,19 @@ a:active, a:hover, a:link{
 .tab button {
   display: block;
   background-color: inherit;
-  color: black;
+  color: #5c8a8a;
   padding: 22px 16px;
   width: 100%;
-  border: none;
+  border: 1px solid #ccc;
   outline: none;
   text-align: left;
+  font-size: 20px;
   cursor: pointer;
+  background-color: #e6e6ff;
+  text-shadow: -0.25px 0.25px 0 #000,
+                0.25px 0.25px 0 #000,
+                0.25px -0.25px 0 #000,
+               -0.25px -0.25px 0 #000; 
 }
 
 /* Change background color of buttons on hover */
@@ -79,12 +98,12 @@ a:active, a:hover, a:link{
   border: 1px solid #ccc;
   width: 70%;
   border-left: none;
-  height: 440px;
+  height: 485px;
   display: none;
   overflow: auto;
 }
 li{
-  margin-left: 10px; 
+  margin-left: 25px; 
 }
 
 .clearfix::after {
@@ -97,12 +116,15 @@ li{
     width: 30%;
     padding-right: 10px;
     padding-bottom: 30px;
+    color: #509e98;
+    border: 1px solid #ccc;
 }
 
 .description{
   width: 70%;
   padding-left: 10px;
   padding-bottom: 30px;
+  border: 1px solid #ccc;
 }
 
 .course{
@@ -111,6 +133,10 @@ li{
   margin: auto;
 }
 
+#email{
+  text-decoration: none;
+  color: #abd3d2;
+}
 
 /*@media (min-width: 992px) and (max-width: 1199px){
   .title{
@@ -131,5 +157,8 @@ li{
     font-size: 10px;
     overflow-wrap: break-word;
   }  
+  .tab button{
+    font-size: 10px;
+  }
 }
 
